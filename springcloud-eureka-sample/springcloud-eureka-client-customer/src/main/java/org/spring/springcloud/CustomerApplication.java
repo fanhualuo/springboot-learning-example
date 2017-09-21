@@ -2,6 +2,7 @@ package org.spring.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
@@ -20,6 +21,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableFeignClients
 @EnableDiscoveryClient // Eureka Discovery Client 标识
 @SpringBootApplication // Spring Boot 应用标识
+@EnableCircuitBreaker   //@EnableCircuitBreaker注解开启断路器功能：
 public class CustomerApplication {
 
     //@LoadBalanced 标志着 RestTemplate 是通过 Ribbon 客户端负载均衡去调用服务提供者集群的。

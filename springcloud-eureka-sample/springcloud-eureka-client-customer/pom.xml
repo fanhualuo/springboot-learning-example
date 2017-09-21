@@ -31,6 +31,12 @@
             <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
 
+        <!--实现断路器的功能-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
         <!-- Spring Boot Test 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

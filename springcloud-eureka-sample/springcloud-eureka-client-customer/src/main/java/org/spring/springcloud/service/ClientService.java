@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 
 //使用@FeignClient注解来指定这个接口所要调用的服务名称
-@FeignClient("provider-service")
+@FeignClient(value = "provider-service",fallback = ClientServiceImpl.class)
 public interface ClientService {
     //接口中定义的各个函数使用Spring MVC的注解就可以来绑定服务提供方的REST接口
 
@@ -23,5 +23,8 @@ public interface ClientService {
 
     @RequestMapping(method = RequestMethod.GET, value = "/add")
     Integer add(@RequestParam(value = "a") Integer a, @RequestParam(value = "b") Integer b);
+
+
+
 
 }
