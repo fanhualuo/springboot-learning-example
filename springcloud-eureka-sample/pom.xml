@@ -16,6 +16,12 @@
 		<module>springcloud-eureka-client-provider</module>
 		<!-- Spring Cloud 服务消费者 -->
 		<module>springcloud-eureka-client-customer</module>
+
+		<!--Spring Cloud 配置仓库:分布式配置中心:服务端-->
+		<module>config-server-git</module>
+		<!--Spring Cloud 配置仓库:分布式配置中心:客户端-->
+		<module>config-client</module>
+
 	</modules>
 
 </project>

@@ -5,12 +5,9 @@
 - springcloud-eureka-client-provider (Spring Cloud 服务提供者）
 - springcloud-eureka-client-customer (Spring Cloud 服务消费者)
 
-对应教程：
-- [《Spring Cloud Eureka 入门 （一）服务注册中心详解》](http://spring4all.com/article/101)<br>
-- [《Spring Cloud Eureka 入门 （二）服务提供者详解》](http://spring4all.com/article/122)<br>
-- [《Spring Cloud Eureka 入门 （三）服务消费者详解》](http://spring4all.com/article/131)<br>
+- config-server-git(Spring Cloud构建微服务架构：分布式配置中心 服务端)
+- config-client(Spring Cloud构建微服务架构：分布式配置中心 客户端)
 
-- - -
 
 
 
@@ -18,5 +15,5 @@
 
 <br><br><br><br>
 参考作者<br>
-作者：[泥瓦匠BYSocket](http://www.bysocket.com/ "泥瓦匠BYSocket")<br>
-源码地址：[GitHub地址](https://github.com/JeffLi1993 "GitHub")<br>
+[泥瓦匠BYSocket](https://github.com/JeffLi1993)<br>
+[翟永超](https://github.com/dyc87112/SpringBoot-Learning)<br>
