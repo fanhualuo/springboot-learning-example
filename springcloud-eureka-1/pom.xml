@@ -4,7 +4,7 @@
 	<name>springcloud :: Eureka Sample</name>
 
 	<groupId>springcloud</groupId>
-	<artifactId>springcloud-eureka-sample</artifactId>
+	<artifactId>springcloud-eureka-1</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
