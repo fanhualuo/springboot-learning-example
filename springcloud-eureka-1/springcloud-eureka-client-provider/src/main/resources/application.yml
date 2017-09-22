@@ -1,0 +1,12 @@
+server:
+  port: 8080 # 服务端口
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/ # 服务注册中心地址
+
+spring:
+  application:
+    name: provider-service # 服务名称我们可以指定微服务的名称后续在
+                           # 调用的时候只需要使用该名称就可以进行服务的访问

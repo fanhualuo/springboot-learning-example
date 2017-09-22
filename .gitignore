@@ -30,8 +30,3 @@ dependency-reduced-pom.xml
 flyway.properties
 _book/
 site/
-application.properties
-application.yml
-log.txt
-ip.txt
-logback.xml
