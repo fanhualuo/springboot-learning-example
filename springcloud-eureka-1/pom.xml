@@ -16,6 +16,9 @@
 		<module>springcloud-eureka-client-provider</module>
 		<!-- Spring Cloud 服务消费者 -->
 		<module>springcloud-eureka-client-customer</module>
+
+		<!-- Spring Cloud 服务消费者 -->
+		<module>springcloud-gateway</module>
 	</modules>
 
 </project>

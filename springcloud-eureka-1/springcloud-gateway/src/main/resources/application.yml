@@ -1,0 +1,23 @@
+server:
+  port: 8870 # 服务端口
+
+spring:
+  application:
+    name: gateway # 服务名称
+
+#zuul:
+#  routes:
+#    api-a-url :
+#      path: /api-a-url/**
+#      url: http://localhost:8090/  #通过url映射
+zuul:
+  routes:
+    api-a-url :
+      path: /api-a-url/**
+      url: customer-service #通过serviceId映射
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/ # 服务注册中心地址
